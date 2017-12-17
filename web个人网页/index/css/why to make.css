@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.frist{
+    background-color: cadetblue;
+	width:100%;
+	
+}.image {
+}
+
+.one{
+	column-count: 2;
+}
+.second{background-color:darkseagreen;
+        margin: 25px;
+        padding: 60px;}

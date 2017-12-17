@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.frist{
+    background-color: cadetblue;
+	width:100%;
+	
+}.image {
+}
+
+.second{background-color: #C99F91;
+        color: #E45B5D;
+        margin: 25px;
+        padding: 60px;}

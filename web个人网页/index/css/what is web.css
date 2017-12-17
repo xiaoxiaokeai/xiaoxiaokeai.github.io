@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.frist{
+    background-color: cadetblue;
+	width:100%;
+	
+}.image {
+}
+.two{
+	background-color: antiquewhite;
+	margin: 25px;
+	column-count:2;
+}
+
+.three{
+	background-color: antiquewhite;
+	margin: 25px;
+	column-count: 1;
+}
+
+.four{
+	background-color: antiquewhite;
+	margin: 25px;
+	column-count: 1;
+}
+
+.five{
+	background-color: antiquewhite;
+	margin: 25px;
+	column-count: 1;
+}
+.second{background-color: #C99F91;
+        color: #E45B5D;
+        margin: 25px;
+        padding: 60px;}
