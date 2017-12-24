@@ -1,0 +1,12 @@
+.con_box{ 
+   
+    position: fixed;
+	bottom: 10%;
+	right: 0px;
+	font-size: 0;
+	line-height: 0;
+    z-index: 2;
+    }
+.con_box:hover {
+      width: 70px;
+   }
