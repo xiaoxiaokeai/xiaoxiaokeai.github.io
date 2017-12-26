@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>christmas|| login</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style type="text/css">
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        #all{
+            width:100%;
+            height:auto;
+            background-image: url(../图/665dc9e8183ececdcd273e512996d5dc05b43ac5bc18-fkv8kA.jpg);
+            background-size: cover;
+            padding-top: 150px;
+        }
+
+        #content{
+            width:400px;
+            height: 500px;
+            background-color: white;
+            padding-top: 30px;
+            border-radius:15px;
+            color: #000;
+        }
+        .form-control{
+            margin-bottom: 20px;
+            height: 50px;
+            width: 90%;
+            background-color:#eaeaec;
+        }
+        .btn{
+            margin-top: 20px;
+            background-color: #6bc5a4;
+            color: white;
+            width: 100px;
+        }
+        .btn:hover{
+            background-color:#53987f;
+            color: white;
+        }
+        a:link{
+            color: white;
+        }
+        a:visited{
+            color: white;
+        }
+    </style>
+    <script>
+    $(document).ready(function () {
+        var w=($(window).height());
+        w=w-130;
+        $("#all").height(w);
+        $("#sub").click(function (){
+            var user=$("#username").value;
+            var pas=$("#password").value;
+            localStorage.setItem("username",user);
+            window.location.href="sy.html";
+            $.ajax({
+                type: "GET",
+                url: "",
+                data: {username:user, password:pas},
+                dataType: "json",
+                success: function (message) {
+
+                },
+                error: function (message) {
+
+                }
+            });
+
+
+
+        })
+
+    })
+    $(window).resize(function() {
+        var w=($(window).height());
+        w=w-130;
+        $("#all").height(w);
+
+    });
+
+    </script>
+</head>
+<body class="one" style="background-image: url(../图/A.jpg)">
+<div id="all" align="center">
+<div id="content">
+    <div class="logo">
+        <img src="../图/Cache_69c2355dca8b531a..jpg" width="280px" height="180px"/>
+    </div>
+    <h3 style="margin-bottom: 40px;color: #243891;">welcome to login</h3>
+<input type="text" class="form-control" placeholder="username">
+    <input type="password" class="form-control" placeholder="password">
+    <a href="sy.html"> <button class="btn" id="sub" >login</button></a>
+     </div>
+<div style="width: 400px;margin-top: 13px;color: white"> <span style="float: left;">&nbsp;&nbsp;if not？<a href="signup.html"> register</a></span>
+        <span style="float: right;"><a href="forget.html">forget?</a>&nbsp;&nbsp;</span></div>
+</div>
+</body>
+</html>

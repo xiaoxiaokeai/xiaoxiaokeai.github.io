@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>christmas||forget password</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style type="text/css">
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        #all{
+            width:100%;
+            height:auto;
+            background-image: url(../图/665dc9e8183ececdcd273e512996d5dc05b43ac5bc18-fkv8kA.jpg);
+            background-size: cover;
+            padding-top: 80px;
+        }
+
+        #content{
+            width:400px;
+            height: 700px;
+            background-color: white;
+            padding-top: 30px;
+            border-radius:15px;
+            color: #000;
+        }
+        .form-control{
+            margin-bottom: 20px;
+            height: 40px;
+            width: 85%;
+            background-color:#eaeaec;
+        }
+        .logo{
+
+        }
+        .btn{
+            margin-top: 20px;
+            background-color: #6bc5a4;
+            color: white;
+            width: 100px;
+        }
+        .btn:hover{
+            background-color:#53987f;
+            color: white;
+        }
+        .item{
+            width:100%;
+            height: auto;
+            color: #666666;
+        }
+        .item_left{
+            width:30%;
+            height: auto;
+            float: left;
+        }
+        .item_right{
+            width:70%;
+            float: left;
+        }
+        a:link{
+            color: white;
+        }
+        a:visited{
+            color: white;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            var w=($(window).height());
+            $("#all").height(w);
+
+        })
+        $(window).resize(function() {
+            var w=($(window).height());
+            $("#all").height(w);
+
+        });
+
+    </script>
+</head>
+<body class="two" style="background-image: url(../图/665dc9e8183ececdcd273e512996d5dc05b43ac5bc18-fkv8kA.jpg)">
+<div id="all" align="center">
+    <div id="content">
+        <div class="logo">
+            <img src="../图/Cache_69c2355dca8b531a..jpg" width="280px" height="180px"/>
+        </div>
+        <h3 style="margin-bottom: 40px;color: #243891;">Find Password</h3>
+        <div class="item">
+            <div class="item_left"><h4 style="float: right">e-mail</h4></div>
+            <div class="item_right"><input type="text" class="form-control" placeholder="e-mail"></div>
+        </div>
+        <button class="btn" style="margin-top: 0px;margin-bottom: 20px;width: 120px">click send code</button>
+        <div class="item">
+            <div class="item_left"><h4 style="float: right">verification</h4></div>
+            <div class="item_right"><input type="text" class="form-control" placeholder="verification code"></div>
+        </div>
+
+        <div class="item">
+            <div class="item_left"><h4 style="float: right">new password</h4></div>
+            <div class="item_right"><input type="text" class="form-control" placeholder="new password"></div>
+        </div>
+        <div class="item">
+            <div class="item_left"><h4 style="float: right">new password</h4></div>
+            <div class="item_right"><input type="text" class="form-control" placeholder="please enter the password again"></div>
+        </div>
+
+
+        <button class="btn" id="sub" >finish</button>
+
+    </div>
+    <div style="width: 400px;margin-top: 13px;color: white">
+        <span style="float: right;"><a href="login.html">comeback to login</a>&nbsp;&nbsp;</span></div>
+</div>
+</div>
+</body>
+</html>
