@@ -12,9 +12,10 @@
     min-width: 20%;        /*little bug when page beccomes small no big problem*/
 }
 .menu > li {
-    display: block;
-    float: left;
-    position: relative;
+	display: block;
+	float: left;
+	position: relative;
+	line-height: 15px;
 }
 .menu a {
     border-left: 10px solid rgba(0, 0, 0, 0);

@@ -25,6 +25,51 @@
 }
 .ym-top a:hover {
   color: #FF6A6A;
-  font-size: 30pt;
+  font-size: 30px;
   
+}
+
+.n1 {
+	background-color: antiquewhite;
+	height: 100px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border-radius: 15px;
+}
+
+.m2{
+	background-color: antiquewhite;
+	height: 100px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border-radius: 15px;
+}
+
+.n2{
+	background-color: antiquewhite;
+	height: 100px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border-radius: 15px;
+}
+
+.m3{
+	background-color: antiquewhite;
+	height: 100px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border-radius: 15px;
+}
+
+.ni{
+	background-color:lightseagreen;
+	height: px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border-radius: 15px;
 }

@@ -10,10 +10,10 @@
 <title>Merry Christmas </title>
 <style type="text/css">
 body{
-  background: url(images/m2-background.jpg); 
-   background-repeat:no-repeat;
-   background-attachment: fixed;
-
+	background: url(images/m2-background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-indent: 0;
 }
 </style>
  <script type="text/javascript" src = "js/sound.js"></script>
@@ -28,35 +28,32 @@ body{
 <!-- header start      -->
 <tr><td align=center colspan=2 height="150">
 <link rel="stylesheet" type="text/css" href="css/header.css">
-
+  <div style="position: relative;top :50%;left:-40%;">
+     <a href="index.html">
+        <img src="images/logo.png" width="230" height="100" /></a>
+   </div>
+  
    <header class="ym">
+   
     <div class="ym-top">
-
-            <div class="ym-top-left">
-                
-                <!-- input the true Website in the "www",the function will be useful. -->
-               <audio src="music/doorring.mp3" hidden="true" id="audio"></audio>
-          <div onmousemove="play1()" onmouseout="pause1()">
-                <a href="#" onclick="window.external.addFavorite('http://www.xxx.com','title');">
-                Collection of This Station</a> 
-               <a href="index-aboutus.html"  name="AboutUs" target="_blank"> About Us </a></div>
-            </div>
+            
             <div class="ym-top-right">
 <!-- sbutton sound -->
           <audio src="music/doorring.mp3" hidden="true" id="audio"></audio>
           <div onmousemove="play1()" onmouseout="pause1()">
-                <a href="index-register.html" name = "Register" target="_blank">Register</a>
+                <a href="index-aboutus.html" name = "Register" target="_blank">About Us</a>
+                 <a href="index-contact.html" name = "Register" target="_blank">Contact Us</a>
+                  <a href="index-register.html" name = "Register" target="_blank">Register</a>
                 <a href="index-signin.html" name = "Sign In" target="_blank" >Sign In</a></div>
             </div>
         </div>
     </div>
-</header></link>
+  
+</header><nk>
+
 
 <img  src="images/title.png"  width="270" height="230" />
-<div style="position: relative;top :-40%;left:-30%;">
-<a href="index.html">
-<img src="images/logo.png" width="230" height="100" /></a>
-</div>
+
 </td></tr>
 
 <tr><td align=center  width=100%  >
@@ -75,43 +72,43 @@ body{
 <ul class="menu">
 
 
-<li >
+<li class="one">
      <audio src="music/game.mp3" hidden="true" id="audio"></audio>
           <div onmousemove="play2()" onmouseout="pause2()">
     <form name="form1">
     <a href="index-game.html" name= link1  onMouseOver = "ImgOver1()"    onMouseOut = "ImgOut1()">
       <img src="images/bell.png"  name="IMG1" width="200" height="200" />
-      <ul>Play Games</ul>
+      <ul class="n1">Play Games</ul>
 </a></form></div>
 </li>
 
-<li >
+<li class="two">
  <audio src="music/story.mp3" hidden="true" id="audio"></audio>
           <div onmousemove="play3()" onmouseout="pause3()">
           <form name="form2">
           <a href="index-story.html" name= link2  onMouseOver = "ImgOver2()"            onMouseOut = "ImgOut2()">
       <img src="images/bell.png"  name="IMG2" width="200" height="200" >
-      <ul>Story</ul>
+      <ul class="m2">Story</ul>
 </a></form></div>
 </li>
 
-<li >
+<li class="three">
 <audio src="music/cookie.mp3" hidden="true" id="audio"></audio>
           <div onmousemove="play4()" onmouseout="pause4()">
           <form name="form3">
           <a href="index-cooike.html" name= link3  onMouseOver = "ImgOver3()"            onMouseOut = "ImgOut3()">
       <img src="images/bell.png"  name="IMG3" width="200" height="200" >
-      <ul>Cooike</ul>
+      <ul class="n2">Cooike</ul>
 </a></form></div>
 </li>
 
-<li >
+<li class="four">
 <audio src="music/bell.mp3" hidden="true" id="audio"></audio>
           <div onmousemove="play5()" onmouseout="pause5()">
           <form name="form4">
           <a href="index-trevi.html" name= link4  onMouseOver = "ImgOver4()"            onMouseOut = "ImgOut4()">
       <img src="images/bell.png"  name="IMG4" width="200" height="200" >
-      <ul>Trevi Fountain</ul>
+      <ul class="m3">Trevi Fountain</ul>
 </a></form></div>
 </li>
 
@@ -138,7 +135,7 @@ body{
 <canvas width="100%" height="100%" class="snow"></canvas>
 <canvas width="100%" height="100%" class="flake"></canvas>
 <!-- snow end -->
-<footer> <fonnt color = "black" />
+<footer class="ni"> <fonnt color = "black" />
 When using this station, you have accepted the terms of use and the privacy clause of this station. All rights reserved and all rights reserved.Copyright and maintenance © A small miracle <br>
 <center>Call number ： 12345678 </center>
 </footer>
