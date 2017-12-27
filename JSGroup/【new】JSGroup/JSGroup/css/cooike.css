@@ -1,0 +1,12 @@
+.cooike{
+	margin:10px auto;
+
+}
+.cooike img{
+
+}
+.cooike img:hover{
+	border: 7px solid #FFA500;
+	widows: 330px;
+    height: 420px;
+}

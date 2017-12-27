@@ -1,0 +1,30 @@
+.ym {
+  width: 100%;
+  float: left;
+}
+.ym-top {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.ym-top-left {
+  float: left;
+ 
+
+}
+.ym-top-right {
+  float: right;
+  margin-right: 0; 
+
+}
+.ym-top a {
+  color: white;
+  margin-right: 1.2rem;
+  font-family: 'STKaiti';
+  font-size: 25pt;
+  text-decoration: none;
+}
+.ym-top a:hover {
+  color: #FF6A6A;
+  font-size: 30pt;
+  
+}

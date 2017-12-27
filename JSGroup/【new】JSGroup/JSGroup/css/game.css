@@ -1,0 +1,43 @@
+
+#mark{
+   text-align: center;
+   font-weight:500;
+   font-size: 30px;
+   color: #000000;
+   font-family: 'STKaiti';
+   z-index: 10;
+}
+.game{
+			width:1000px;
+			margin:50px auto;
+      text-align: center;
+      z-index: 10;
+
+}
+
+
+.game input[type="button"] {
+    font-size: 15px;
+    font-weight:700;
+    font-family: 'Lucida Console';
+    color: #0000FF;
+    padding: 13px 0;
+    background: #FFFFF0;
+    display: inline-block;
+    width: 20%;
+    outline:none;
+    border:2px solid #FFFF00;
+    cursor:pointer;
+    text-transform:uppercase;
+      margin: 10px auto;
+}
+.game input[type="button"]:hover{
+    transition: all 0.3s ease;
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     border:2px solid #000000;
+}
+.game input[type="button"] {
+    padding: 10px 0;
+}

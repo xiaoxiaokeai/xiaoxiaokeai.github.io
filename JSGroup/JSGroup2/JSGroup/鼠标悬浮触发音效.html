@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>声音特效</title>
+<script type="text/javascript">
+function play(){
+   document.getElementById('audio').play();
+}
+function  pause(){
+	document.getElementById('audio').src = "music/dingdong.mp3";
+	document.getElementById('audio').pause();
+
+}
+</script>
+
+</head>
+<body>
+<audio src="music/dingdong.mp3" hidden="true" id="audio"></audio>
+<div onmousemove="play()" onmouseout="pause()"> 放上试试</div>
+
+
+</body>
+</html>

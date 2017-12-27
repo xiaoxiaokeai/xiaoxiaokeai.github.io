@@ -1,0 +1,34 @@
+.make_box{
+	 margin: 10px ; 
+	 width: 50%;            
+    text-align: left;
+}
+
+.make_box li{
+list-style-type:none;
+}
+.make_box p{
+  font-family:'STKaiti';
+  font-size: 50px;
+  color: #FFFF00;
+  position:relative;
+  top:0px;
+  left: 300px;
+}
+
+
+.make_box form{
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    color: black;
+    display: block;
+    font-family: 'Lucida Console';
+    font-size: 28px;
+    line-height: 300%;
+    padding: 0 25px;
+    width: 300%;
+
+}
+.make_box img{
+	widows: 200px;
+	height: 200px;
+}

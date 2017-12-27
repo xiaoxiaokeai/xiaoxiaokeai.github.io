@@ -1,0 +1,32 @@
+.sb_box {                             /*Text types*/
+    
+    margin: 100px auto;
+    width: 1800px;
+    height:1700px;
+    border-width: 1px;
+    border-color:#CCC;
+    background: url(../images/board.png);
+    background filter: alpha(opacity:100);
+    opacity:0.9;
+
+}
+
+
+.sb_box form{                                 /*cancle underlie ，set up font*/
+font-family:'STKaiti';
+font-size:20pt;
+color:#1c4269;
+text-decoration:none;
+margin:  190px 200px 0px ;
+text-align: left;
+}
+
+
+
+.sb_box p{                                               /*title*/
+  font-family:'STKaiti';
+  font-size: 50px;
+  position:relative;
+  top:130px;
+   
+}

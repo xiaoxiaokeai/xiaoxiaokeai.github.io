@@ -1,0 +1,59 @@
+*{
+            margin:0px;
+            padding: 0px;
+        }
+        #all{
+            width:100%;
+            height:auto;
+            background-image: url(../images/start1.jpg);
+            background-size: cover;
+            padding-top: 80px;
+        }
+
+        #content{
+            width:400px;
+            height: 700px;
+            background-color: white;
+            padding-top: 30px;
+            border-radius:15px;
+            color: #000;
+        }
+        .form-control{
+            margin-bottom: 20px;
+            height: 40px;
+            width: 85%;
+            background-color:#eaeaec;
+        }
+        .logo{
+
+        }
+        .btn{
+            margin-top: 20px;
+            background-color: #6bc5a4;
+            color: white;
+            width: 100px;
+        }
+        .btn:hover{
+            background-color:#53987f;
+            color: white;
+        }
+        .item{
+            width:100%;
+            height: auto;
+            color: #666666;
+        }
+        .item_left{
+            width:30%;
+            height: auto;
+            float: left;
+        }
+        .item_right{
+            width:70%;
+            float: left;
+        }
+        a:link{
+            color: white;
+        }
+        a:visited{
+            color: white;
+        }
