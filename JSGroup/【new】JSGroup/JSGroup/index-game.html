@@ -56,10 +56,12 @@ body{
 <div class="game">
 			<canvas id="canvas" width="600" height="600"></canvas>
 			<div id="mark"></div>
+			<audio src= hidden="true" id="audio"></audio>
+          <div onmousemove="play6()" onmouseout="pause6()">
 			<input type="button" value="Last Pass" onClick="NextLevel(-1)">
 			<input type="button" value="Next Pass" onClick="NextLevel(1)">
 			<input type="button" value="Replay the Customs" onClick="NextLevel(0)">
-			<input type="button" value="Game Description" onClick="showHelp()">
+			<input type="button" value="Game Description" onClick="showHelp()"></div>
 		</div>
 	
 	<script src="js/map.js"></script>
