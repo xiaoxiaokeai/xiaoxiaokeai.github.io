@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    width: 100%;
+    background-color: #5cacab;
+    height: 65px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+}
+.logo{
+    width: 15%;
+    height: 100%;
+    margin-left: 10%;
+    float: left;
+}
+.menu{
+    width: 40%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.search{
+    width: 20%;
+    height: 100%;
+    margin-right: 15%;
+    float: left;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.user{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 18px;
+    right: 40px;
+}
+.user_info{
+    width: 200px;
+    height: 265px;
+    position: fixed;
+    top: 63px;
+    right: 0;
+    background-color:#5cacab ;
+    opacity: 0.8;
+    display: none;
+    border-radius: 5px;
+}
+.user_item{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+
+}
+.user_item:hover{
+    background-color:#61cdcb ;
+
+}
+.user_item_left{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+.user_item_right{
+    width: 65%;
+    height: 100%;
+    float: left;
+    color: white;
+}
+.user_item_right h4{
+    line-height: 27px;
+    float: left;
+    margin-left: 18px
+}
+.list{
+    width: 530px;
+    height: 100%;
+
+}
+.list li{
+    width: 100px;
+    height: 100%;
+    line-height: 80px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.list li:hover{
+    background-color: #65bebd;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #5a8181;
+}
+.list li a{
+    color: white;
+    text-decoration:none
+}
+.list li a:link{
+    color: white;
+    text-decoration:none
+}
+#all{
+    width: 100%;
+    height: auto;
+}
+.content{
+    width:100%;
+    height:2000px;
+    background-color:white;
+
+}
+#myCarousel{
+    width: 100%;
+    height: 570px;
+    z-index: 0;
+}
+#myCarousel li{
+    width: 2%;
+    height: 20px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.content_term{
+    width: 60%;
+    height: 350px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    float: left;
+    margin-left: 20%;
+
+}
+.content_term_head{
+    width: 100%;
+    height: 80px;
+    border-bottom: solid;
+    border-color: #cccccc;
+    color: #444444;
+}
+.content_term_title{
+    float: left;
+
+}
+.content_term_img{
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.term_main{
+    width:100%;
+    height: 370px;
+}
+
+.col-xs-4{
+    padding-top: 40px;
+    height: 200px;
+    text-align: left;
+}
+.per_img{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.per_mess{
+    text-align: center;
+    width:60%;
+    height: 100%;
+    float: left;
+    color: #008ad0;
+    overflow: hidden;
+
+}
+.major{
+    width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:15px;
+    background-color: #5cacab;
+    color: white;
+
+}
+.logbook{
+    width: 100%;
+    height: 120px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+}
+.logbook_head{
+    height: 25%;
+    width: 100%;
+    color: #2e6da4;
+}
+.logbook_foot{
+    height: 25%;
+    width: 100%;
+}
+.logbook_body{
+    height: 40%;
+    width: 100%;
+
+}
+
+.foot{
+    width: 100%;
+    height: 150px;
+    background-color: #666666;
+    float: left;
+    position: relative;
+    color: white;
+}
+ .foot_word{
+     width: 40%;
+     position: absolute;
+     height:auto;
+     bottom: 15px;
+     left: 30%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
